@@ -6,16 +6,24 @@
         {
             "label": "Start Server",
             "type": "shell",
-            "windows":{
+            "windows": {
                 "command": "./dbg/StartServer.bat"
             }
         },
         {
             "label": "Kill Server",
             "type": "shell",
-            "windows":{
+            "windows": {
                 "command": "./dbg/KillServer.bat"
             }
+        },
+        {
+            "label": "Build min",
+            "type": "shell",
+            "windows": {
+                "command": "uglifyjs --compress --mangle lwtah.js -o lwtah.min.js"
+            },
+            "problemMatcher": []
         }
     ]
 }
