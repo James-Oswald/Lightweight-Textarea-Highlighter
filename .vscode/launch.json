@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Chrome with LocalHost",
-            "url": "http://localhost:8000/index.html",
+            "url": "http://localhost:8000/examples/example1.html",
             "webRoot": "${workspaceFolder}",
             "preLaunchTask": "Start Server",
             "postDebugTask": "Kill Server"
@@ -17,7 +17,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Chrome Static",
-            "url": "${workspaceFolder}/index.html",
+            "url": "${workspaceFolder}/examples/example1.html",
             "webRoot": "${workspaceFolder}"
         },
     ]

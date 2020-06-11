@@ -18,10 +18,10 @@
             }
         },
         {
-            "label": "Build min",
+            "label": "Build",
             "type": "shell",
             "windows": {
-                "command": "uglifyjs --compress --mangle lwtah.js -o lwtah.min.js"
+                "command": "./dbg/Build.bat"
             },
             "problemMatcher": []
         }
