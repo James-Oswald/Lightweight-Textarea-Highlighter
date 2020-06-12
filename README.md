@@ -17,11 +17,11 @@ Disclaimer: this project is very janky and still a work in progress, It should n
 In the /build/ directory you will find `lwtah.js`(~5 KB) and `lwtah.min.js` (~3 KB), to enable the library copy one of these files into your project, include it with a script tag in the head, and you’re good to go, it’s that easy. 
 
 ```html
-<script src=”lwtah.min.js”></script>
+<script src="lwtah.min.js"></script>
 ```
 Or
 ```html
-<script src=”lwtah.js”></script>
+<script src="lwtah.js"></script>
 ```
 Once included, the library exposes a few functions and globals prefixed with lwtah to be accessed, however most of them are for internal use, The only three functions that should be used externally are:
 
