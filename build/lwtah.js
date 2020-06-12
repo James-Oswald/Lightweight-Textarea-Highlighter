@@ -21,6 +21,10 @@ function lwtahClear(textareaId){
     lwtahOnInput(textarea);
 }
 
+function lwataUpdate(textareaId){
+    lwtahOnInput(document.getElementById(textareaId));
+}
+
 function lwtahOnScroll(textarea){
     let cont = document.getElementById("lwtahBackdrop" + textarea.id);
     cont.scrollTop = textarea.scrollTop;
