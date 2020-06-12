@@ -16,7 +16,7 @@ After Trying both of them for one of my projects, I decided both were too heavy 
 |-------------|--------------------------------|------------------|
 |Will Boyd    |highlight-within-textarea       |82.2 KB           |
 |Garry Sieling|jquery-highlighttextarea        |357.7 KB          |
-|James Oswald |Lightweight-Textarea-Highlighter|2.52              |
+|James Oswald |Lightweight-Textarea-Highlighter|2.6 KB            |
 
 Calculations:  
 Highlight-within-textarea:  
@@ -38,8 +38,9 @@ jquery-highlighttextarea:
 
 Lightweight-Textarea-Highlighter:  
 &nbsp;2.52 KB :  [lwtah.min.js](https://github.com/James-Oswald/Lightweight-Textarea-Highlighter/blob/master/build/lwtah.min.js)   
-+----------------------------------------------------------
++----------------------------------------------------------  
 &nbsp;2.52 KB  
+
 
 
 
