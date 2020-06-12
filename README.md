@@ -1,5 +1,4 @@
-# Lightweight-Textarea-Highlighter
-Native JS library to allow you to highlight ranges within &lt;textarea>s
+
 # Lightweight-Textarea-Highlighter
 Native JS library to allow you to highlight ranges within &lt;textarea>s
 
@@ -33,12 +32,12 @@ jquery-highlighttextarea:
   31.3 KB (jquery-ui.min.css)
   247 KB (jquery-ui.min.js)
   7.91 KB ((jquery.highlighttextarea.min.js)[https://github.com/garysieling/jquery-highlighttextarea/blob/master/jquery.highlighttextarea.min.js])
-+ 0.915 KB ((jquery.highlighttextarea.min.css)[https://github.com/garysieling/jquery-highlighttextarea/blob/master/jquery.highlighttextarea.min.css])
-----------------------------------------------------------
+\+ 0.915 KB ((jquery.highlighttextarea.min.css)[https://github.com/garysieling/jquery-highlighttextarea/blob/master/jquery.highlighttextarea.min.css])
+\----------------------------------------------------------
   357.7 KB
 
 
 Lightweight-Textarea-Highlighter:
-+ 2.52 KB ((lwtah.min.js)[https://github.com/James-Oswald/Lightweight-Textarea-Highlighter/blob/master/build/lwtah.min.js])
-----------------------------------------------------------
+\+ 2.52 KB ((lwtah.min.js)[https://github.com/James-Oswald/Lightweight-Textarea-Highlighter/blob/master/build/lwtah.min.js])
+\----------------------------------------------------------
   2.52 KB
