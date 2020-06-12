@@ -20,25 +20,25 @@ After Trying both of them for one of my projects, I decided both were too heavy 
 
 Calculations: 
 Highlight-within-textarea:
-  70.6 KB
-( (jquery-3.5.1.slim.min.js)[https://code.jquery.com/jquery-3.5.1.slim.min.js] )
-  10.6 KB ( (jquery.highlight-within-textarea.js)[https://github.com/lonekorean/highlight-within-textarea/blob/master/jquery.highlight-within-textarea.js] )
-\+ 0.959 KB ((jquery.highlight-within-textarea.css)[https://github.com/lonekorean/highlight-within-textarea/blob/master/jquery.highlight-within-textarea.css])
-______________________________________________________
+  70.6 KB : (jquery-3.5.1.slim.min.js)[https://code.jquery.com/jquery-3.5.1.slim.min.js]
+  10.6 KB :  (jquery.highlight-within-textarea.js)[https://github.com/lonekorean/highlight-within-textarea/blob/master/jquery.highlight-within-textarea.js]
+  0.959 KB : (jquery.highlight-within-textarea.css)[https://github.com/lonekorean/highlight-within-textarea/blob/master/jquery.highlight-within-textarea.css]
++----------------------------------------------------------
 82.2 KB
 
 jquery-highlighttextarea:
   70.6 KB ( (jquery-3.5.1.slim.min.js)[https://code.jquery.com/jquery-3.5.1.slim.min.js] )
-  31.3 KB (jquery-ui.min.css)
-  247 KB (jquery-ui.min.js)
-  7.91 KB ( (jquery.highlighttextarea.min.js)[https://github.com/garysieling/jquery-highlighttextarea/blob/master/jquery.highlighttextarea.min.js] )
-\+ 0.915 KB ( (jquery.highlighttextarea.min.css)[https://github.com/garysieling/jquery-highlighttextarea/blob/master/jquery.highlighttextarea.min.css] )
-----------------------------------------------------------
+  31.3 KB : jquery-ui.min.css)
+  247 KB : jquery-ui.min.js
+  7.91 KB : (jquery.highlighttextarea.min.js)[https://github.com/garysieling/jquery-highlighttextarea/blob/master/jquery.highlighttextarea.min.js]
+ 0.915 KB  (jquery.highlighttextarea.min.css)[https://github.com/garysieling/jquery-highlighttextarea/blob/master/jquery.highlighttextarea.min.css]
++----------------------------------------------------------
 357.7 KB
 
 
 Lightweight-Textarea-Highlighter:
-\+ 2.52 KB ( (lwtah.min.js)[https://github.com/James-Oswald/Lightweight-Textarea-Highlighter/blob/master/build/lwtah.min.js] )
-----------------------------------------------------------
++ 2.52 KB :  (lwtah.min.js)[https://github.com/James-Oswald/Lightweight-Textarea-Highlighter/blob/master/build/lwtah.min.js] 
++----------------------------------------------------------
 2.52 KB
+
 
