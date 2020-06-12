@@ -49,14 +49,14 @@ This project isn’t fully completed there are quite a few restrictions on usage
 
 ## Comparison
 
-|Author       |Libraries                       |Min bytes Imported|
+|Author       |Library                         |Min bytes Imported|
 |-------------|--------------------------------|------------------|
 |Will Boyd    |highlight-within-textarea       |82.2 KB           |
 |Garry Sieling|jquery-highlighttextarea        |357.7 KB          |
 |James Oswald |Lightweight-Textarea-Highlighter|2.6 KB            |
 
 Calculations:  
-Highlight-within-textarea:  
+highlight-within-textarea:  
 &nbsp;70.6 KB : [jquery-3.5.1.slim.min.js](https://code.jquery.com/jquery-3.5.1.slim.min.js)   
 &nbsp;10.6 KB :  [jquery.highlight-within-textarea.js](https://github.com/lonekorean/highlight-within-textarea/blob/master/jquery.highlight-within-textarea.js)  
 &nbsp;0.959 KB : [jquery.highlight-within-textarea.css](https://github.com/lonekorean/highlight-within-textarea/blob/master/jquery.highlight-within-textarea.css)  
