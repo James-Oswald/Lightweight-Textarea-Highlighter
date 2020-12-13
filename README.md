@@ -14,7 +14,7 @@ Disclaimer: this project is very janky and still a work in progress, It should n
 
 ## Usage
 
-In the /build/ directory you will find `lwtah.js`(~5 KB) and `lwtah.min.js` (~3 KB), to enable the library copy one of these files into your project, include it with a script tag in the head, and you’re good to go, it’s that easy. 
+On the releases page you will find `lwtah.js`(~5 KB) and `lwtah.min.js` (~3 KB), to enable the library copy one of these files into your project, include it with a script tag in the head, and you’re good to go, it’s that easy. 
 
 ```html
 <script src="lwtah.min.js"></script>
