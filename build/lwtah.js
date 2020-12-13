@@ -2,6 +2,7 @@
 
 let lwtahStyle;
 let lwtahInit = false;
+let lwtahUpdateOnInput = true;
 
 let lwtahPreInitRanges = [];
 function lwtahAddRange(textareaId, range, color){
@@ -9,7 +10,7 @@ function lwtahAddRange(textareaId, range, color){
         let textarea = document.getElementById(textareaId);
         textarea.ranges.push(range);
         textarea.colors.push(color);
-        lwtahOnInput(textarea);
+        lwtahOnInput(textarea, true);
     }else
         lwtahPreInitRanges.push([textareaId, range, color]);
 }
@@ -21,8 +22,12 @@ function lwtahClear(textareaId){
     lwtahOnInput(textarea);
 }
 
-function lwataUpdate(textareaId){
-    lwtahOnInput(document.getElementById(textareaId));
+function lwtahSetUpdateOnInput(updateOnInput){
+    lwtahUpdateOnInput = updateOnInput;
+}
+
+function lwtahUpdate(textareaId){
+    lwtahOnInput(document.getElementById(textareaId), true);
 }
 
 function lwtahOnScroll(textarea){
@@ -30,7 +35,7 @@ function lwtahOnScroll(textarea){
     cont.scrollTop = textarea.scrollTop;
 }
 
-function lwtahOnInput(textarea){
+function lwtahOnInput(textarea, bypassUOI = false){
     let ranges = textarea.ranges;
     //future range validation, too lazy to add this in today
     /*for(let i = 0; i < ranges.length; i++){
@@ -38,6 +43,8 @@ function lwtahOnInput(textarea){
             if(i != j && ranges[i][0] > ranges)
         }
     }*/
+    if(!lwtahUpdateOnInput && !bypassUOI)
+        return;
     let colors = textarea.colors;
     let text = textarea.value;
     text = text.replace(/\n$/g, "\n\n");
