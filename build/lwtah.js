@@ -4,7 +4,7 @@ let lwtahStyle;
 let lwtahInit = false;
 
 let lwtahPreInitRanges = [];
-function lwatahAddRange(textareaId, range, color){
+function lwtahAddRange(textareaId, range, color){
     if(lwtahInit){
         let textarea = document.getElementById(textareaId);
         textarea.ranges.push(range);

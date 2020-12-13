@@ -25,15 +25,15 @@ Or
 ```
 Once included, the library exposes a few functions and globals prefixed with lwtah to be accessed, however most of them are for internal use, The only three functions that should be used externally are:
 
-`lwatahAddRange(textAreaId, range, color)` Adds a range to be highlighted within a textarea
+`lwtahAddRange(textAreaId, range, color)` Adds a range to be highlighted within a textarea
 + `textAreaId`: The id of the &lt;textarea> to apply highlight to as a string
 + `range`: The range to highlight as an array in the form [start_index, end_index],start_index must be greater then 0, start_index must be less then end_index, and end_index must not exceed the length of text in the text box. 
 + `color`: The color of the highlight, any valid css color string. 
 
-`lwatahClear(textAreaId)` Removes all highlights from the given textarea
+`lwtahClear(textAreaId)` Removes all highlights from the given textarea
 + `textAreaId`: The id of the &lt;textarea> to apply highlight to as a string
 
-`lwatahUpdate(textAreaId)` call to update highliging if textarea’s .value or .innerHTML is modified by a script rather then input
+`lwtahUpdate(textAreaId)` call to update highliging if textarea’s .value or .innerHTML is modified by a script rather then input
 + `textAreaId`: The id of the &lt;textarea> to apply highlight to as a string
 
 See examples in the /example/ folder for some sample code using these functions as you would in a normal project. 
