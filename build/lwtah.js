@@ -19,7 +19,7 @@ function lwtahClear(textareaId){
     let textarea = document.getElementById(textareaId);
     textarea.ranges = [];
     textarea.colors = [];
-    lwtahOnInput(textarea);
+    lwtahOnInput(textarea, true);
 }
 
 function lwtahSetUpdateOnInput(updateOnInput){
