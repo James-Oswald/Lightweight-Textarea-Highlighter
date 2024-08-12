@@ -67,13 +67,7 @@ window.addEventListener("load", function(event){
         textAreas[i].style.borderRadius = "0";
         let id = textAreas[i].id == "" ? "lwtahTextArea" + i : textAreas[i].id;
         textAreas[i].id = id;
-        textAreas[i].outerHTML = 
-           `<div class="lwtahCont" id="lwtahCont${textAreas[i].id}">
-                <div class="lwtahBackdrop" id="lwtahBackdrop${textAreas[i].id}" style="">
-                    <div class="lwtahHighlight" id="lwtahHighlight${textAreas[i].id}"></div>
-                </div>
-                ${textAreas[i].outerHTML}
-            </div>`;
+        textAreas[i].outerHTML = `<div class="lwtahCont" id="lwtahCont${textAreas[i].id}"><div class="lwtahBackdrop" id="lwtahBackdrop${textAreas[i].id}" style=""><div class="lwtahHighlight" id="lwtahHighlight${textAreas[i].id}"></div></div>${textAreas[i].outerHTML}</div>`;
         let textarea = document.getElementById(id);
         let backdrop = document.getElementById("lwtahBackdrop" + textarea.id);
         let cont = document.getElementById("lwtahCont" + textarea.id);

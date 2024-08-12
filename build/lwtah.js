@@ -37,12 +37,6 @@ function lwtahOnScroll(textarea){
 
 function lwtahOnInput(textarea, bypassUOI = false){
     let ranges = textarea.ranges;
-    //future range validation, too lazy to add this in today
-    /*for(let i = 0; i < ranges.length; i++){
-        for(let j = 0; j < ranges.length; j++){
-            if(i != j && ranges[i][0] > ranges)
-        }
-    }*/
     if(!lwtahUpdateOnInput && !bypassUOI)
         return;
     let colors = textarea.colors;
