@@ -37,12 +37,6 @@ function lwtahOnScroll(textarea){
 
 function lwtahOnInput(textarea, bypassUOI = false){
     let ranges = textarea.ranges;
-    //future range validation, too lazy to add this in today
-    /*for(let i = 0; i < ranges.length; i++){
-        for(let j = 0; j < ranges.length; j++){
-            if(i != j && ranges[i][0] > ranges)
-        }
-    }*/
     if(!lwtahUpdateOnInput && !bypassUOI)
         return;
     let colors = textarea.colors;
@@ -73,7 +67,13 @@ window.addEventListener("load", function(event){
         textAreas[i].style.borderRadius = "0";
         let id = textAreas[i].id == "" ? "lwtahTextArea" + i : textAreas[i].id;
         textAreas[i].id = id;
-        textAreas[i].outerHTML = `<div class="lwtahCont" id="lwtahCont${textAreas[i].id}"><div class="lwtahBackdrop" id="lwtahBackdrop${textAreas[i].id}" style=""><div class="lwtahHighlight" id="lwtahHighlight${textAreas[i].id}"></div></div>${textAreas[i].outerHTML}</div>`;
+        textAreas[i].outerHTML = 
+           `<div class="lwtahCont" id="lwtahCont${textAreas[i].id}">
+                <div class="lwtahBackdrop" id="lwtahBackdrop${textAreas[i].id}" style="">
+                    <div class="lwtahHighlight" id="lwtahHighlight${textAreas[i].id}"></div>
+                </div>
+                ${textAreas[i].outerHTML}
+            </div>`;
         let textarea = document.getElementById(id);
         let backdrop = document.getElementById("lwtahBackdrop" + textarea.id);
         let cont = document.getElementById("lwtahCont" + textarea.id);

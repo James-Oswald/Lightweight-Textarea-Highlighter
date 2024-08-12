@@ -14,7 +14,7 @@ Disclaimer: this project is very janky and still a work in progress, It should n
 
 ## Usage
 
-On the releases page you will find `lwtah.js`(~5 KB) and `lwtah.min.js` (~3 KB), to enable the library copy one of these files into your project, include it with a script tag in the head, and you’re good to go, it’s that easy. 
+On the releases page (or in the build dir) you will find `lwtah.js`(~5 KB) and `lwtah.min.js` (~3 KB), to enable the library copy one of these files into your project, include it with a script tag in the head, and you’re good to go, it’s that easy. 
 
 ```html
 <script src="lwtah.min.js"></script>
@@ -33,27 +33,27 @@ Once included, the library exposes a few functions and globals prefixed with lwt
 `lwtahClear(textAreaId)` Removes all highlights from the given textarea
 + `textAreaId`: The id of the &lt;textarea> to apply highlight to as a string
 
-`lwtahUpdate(textAreaId)` call to update highliging if textarea’s .value or .innerHTML is modified by a script rather then input
+`lwtahUpdate(textAreaId)` call to update highlighting if textarea’s .value or .innerHTML is modified by a script rather then input
 + `textAreaId`: The id of the &lt;textarea> to apply highlight to as a string
 
-See examples in the /example/ folder for some sample code using these functions as you would in a normal project. 
+See examples in the `/example/` folder for some sample code using these functions as you would in a normal project. 
 
 ## Limitations
 
 This project isn’t fully completed there are quite a few restrictions on usage
 
-1) When adding ranges via lwatahAddRange, ranges must be added in the order that they appear in the textbox, not doing so will cause undefined behavior. 
+1) When adding ranges via lwtahAddRange, ranges must be added in the order that they appear in the textbox, not doing so will cause undefined behavior. 
 
-2) When adding ranges via lwatahAddRange, ranges may not overlap, having overlapping ranges will cause undefined behavior
+2) When adding ranges via lwtahAddRange, ranges may not overlap, having overlapping ranges will cause undefined behavior
 
 
 ## Comparison
 
-|Author       |Library                         |Min bytes Imported|
-|-------------|--------------------------------|------------------|
-|Will Boyd    |highlight-within-textarea       |82.2 KB           |
-|Garry Sieling|jquery-highlighttextarea        |357.7 KB          |
-|James Oswald |Lightweight-Textarea-Highlighter|2.6 KB            |
+|Library                         |Min bytes Imported|
+|--------------------------------|------------------|
+|highlight-within-textarea       |82.2 KB           |
+|jquery-highlighttextarea        |357.7 KB          |
+|Lightweight-Textarea-Highlighter|2.6 KB            |
 
 Calculations:  
 highlight-within-textarea:  
