@@ -1,6 +1,15 @@
 # Lightweight-Textarea-Highlighter
 Native JS library to allow you to highlight ranges within &lt;textarea>s
 
+!!!Disclaimer!!!: this project is very janky. It should not be used as a serious library for serious projects,
+please consider the later jquery solutions if you need a fully fledged solution. 
+
+## Examples
+
+* [Single text box with some highlights](https://james-oswald.github.io/Lightweight-Textarea-Highlighter/examples/example1.html)
+* [Multiple text boxes with dif fonts and colors](https://james-oswald.github.io/Lightweight-Textarea-Highlighter/examples/example2.html)
+* [Dynamically adding and removing highlights](https://james-oswald.github.io/Lightweight-Textarea-Highlighter/examples/example3.html)
+
 ## Introduction
 It is not normally possible to highlight ranges within a normal HTML5 &lt;textarea>. However by placing an exact copy of the text behind the &lt;textarea> and highlighting that, you can get the appearance of highlighting within a text area. 
 
@@ -9,8 +18,6 @@ This project was inspired by things like Will Boyd’s [textarea highlighter tut
 However, as you may notice, both of these solutions depend on JQuery. While JQuery certainly has its uses, what good is forcing small projects to include a massive library like JQuery for a simple feature like this that can be done easily in pure native Javascript. 
 
 After Trying both of them for one of my projects, I decided both were too heavy for the work I was doing and decided to make my own library in pure native Javascript.
-
-Disclaimer: this project is very janky and still a work in progress, It should not be used as a serious library for serious projects, please consider the aforementioned jquery solutions if you need a fully fledged solution. 
 
 ## Usage
 
