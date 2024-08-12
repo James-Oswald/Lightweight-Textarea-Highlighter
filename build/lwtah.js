@@ -90,7 +90,7 @@ window.addEventListener("load", function(event){
         lwtahOnInput(textarea);
     }
     for(let i = 0; i < lwtahPreInitRanges.length; i++)
-        lwatahAddRange(lwtahPreInitRanges[i][0], lwtahPreInitRanges[i][1], lwtahPreInitRanges[i][2]);
+        lwtahAddRange(lwtahPreInitRanges[i][0], lwtahPreInitRanges[i][1], lwtahPreInitRanges[i][2]);
 });
 
 lwtahStyle="lwtahCont{display:block}textarea{margin:0;border-radius:0;color:#444;background-color:transparent;display:block;position:relative;z-index:2;margin:0;border:1px solid black;resize:none;overflow-y:scroll;font-family:inherit}.lwtahBackdrop{margin:0;border-radius:0;overflow:auto;background-color:#fff;position:absolute;z-index:1;padding:3px;overflow-y:scroll}.lwtahHighlight{white-space:pre-wrap;word-wrap:break-word;color:transparent}.lwtahMark{color:transparent}"

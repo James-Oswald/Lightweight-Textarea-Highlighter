@@ -90,5 +90,5 @@ window.addEventListener("load", function(event){
         lwtahOnInput(textarea);
     }
     for(let i = 0; i < lwtahPreInitRanges.length; i++)
-        lwatahAddRange(lwtahPreInitRanges[i][0], lwtahPreInitRanges[i][1], lwtahPreInitRanges[i][2]);
+        lwtahAddRange(lwtahPreInitRanges[i][0], lwtahPreInitRanges[i][1], lwtahPreInitRanges[i][2]);
 });
