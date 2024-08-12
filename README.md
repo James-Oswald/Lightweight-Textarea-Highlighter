@@ -6,11 +6,15 @@ please consider the later jquery solutions if you need a fully fledged solution.
 
 ## Examples
 
+Run the following examples, you can find their source code in the `/example/` folder.
 * [Single text box with some highlights](https://james-oswald.github.io/Lightweight-Textarea-Highlighter/examples/example1.html)
 * [Multiple text boxes with dif fonts and colors](https://james-oswald.github.io/Lightweight-Textarea-Highlighter/examples/example2.html)
 * [Dynamically adding and removing highlights](https://james-oswald.github.io/Lightweight-Textarea-Highlighter/examples/example3.html)
 
-## Introduction
+Real Application:
+* [SIA Explorer](https://james-oswald.github.io/SIA-Explorer/build/)([repository](https://github.com/James-Oswald/SIA-Explorer))
+
+## Motivation
 It is not normally possible to highlight ranges within a normal HTML5 &lt;textarea>. However by placing an exact copy of the text behind the &lt;textarea> and highlighting that, you can get the appearance of highlighting within a text area. 
 
 This project was inspired by things like Will Boyd’s [textarea highlighter tutorials](https://codersblock.com/blog/highlight-text-inside-a-textarea/) such as his [JQuery Plugin to get the same effect](https://github.com/lonekorean/highlight-within-textarea) and Gary Sieling’s [JQuery-UI Plugin](http://garysieling.github.io/jquery-highlighttextarea/).
@@ -43,11 +47,9 @@ Once included, the library exposes a few functions and globals prefixed with lwt
 `lwtahUpdate(textAreaId)` call to update highlighting if textarea’s .value or .innerHTML is modified by a script rather then input
 + `textAreaId`: The id of the &lt;textarea> to apply highlight to as a string
 
-See examples in the `/example/` folder for some sample code using these functions as you would in a normal project. 
-
 ## Limitations
 
-This project isn’t fully completed there are quite a few restrictions on usage
+This project is extremely lightweight and there are a few restrictions on usage
 
 1) When adding ranges via lwtahAddRange, ranges must be added in the order that they appear in the textbox, not doing so will cause undefined behavior. 
 
